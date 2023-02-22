@@ -1,8 +1,10 @@
-Demonstrates an issue with Vite that prevents SSE from closing connections when the browser window is closed or refreshed.
+Demonstrates an [issue](https://github.com/vitejs/vite/issues/12157) with Vite that prevents SSE from closing connections when the browser window is closed or refreshed.
 
 This issue occurs in dev mode but not in prod mode.
 
-# Dev mode
+# Steps to Reproduce
+
+## Dev mode
 
 Demonstrates SSE not closing connections when the browser window is closed or refreshed. You will see in the Chrome DevTools console that client connections are accumulating when you refresh the page which shouldn't happen.
 
@@ -11,7 +13,7 @@ Demonstrates SSE not closing connections when the browser window is closed or re
 3. open the browser console
 4. refresh the page a few times and see the number of connections grow ("There are 1 person(s) here right now!" then "There are 2 person(s) here right now!"...)
 
-# Prod mode
+## Prod mode
 
 Demonstrates SSE disconnect working as expected
 
