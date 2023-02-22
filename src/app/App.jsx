@@ -37,7 +37,8 @@ function App() {
   }, []);
   return (
     <div className={styles.App}>
-      View Chrome DevTools Console for SSE demo output
+      <p>View the readme</p>
+      <p>View Chrome DevTools Console for SSE demo output</p>
     </div>
   );
 }
