@@ -1,10 +1,6 @@
-# Vite React Express Boilerplate
+Demonstrates an issue with Vite that prevents SSE from closing connections when the browser window is closed or refreshed.
 
-> Quickly bootstrap a new project with Vite React Express Boilerplate.
-
-This boilerplate is a fork of [lmachens/vite-boilerplate](https://github.com/lmachens/vite-boilerplate), but replaces TypeScript with JavaScript and removes Storybook.
-
-I created it as an example for this GitHub issue
+This issue occurs in dev mode but not in prod mode.
 
 # Dev mode
 
